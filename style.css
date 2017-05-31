@@ -5,6 +5,12 @@ h1{
     color: black;
     text-align: right;
     margin-right: 7em;
+    position: absolute;
+    visibility: visible;
+    top: 1em;
+    left: 250px;
+    
+    /*How to aline with top of page?*/
 }
 
 h3{
