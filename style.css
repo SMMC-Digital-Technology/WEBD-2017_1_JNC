@@ -10,6 +10,10 @@ h1{
     top: 1em;
     left: 250px;
     }
+h1{
+    p.double  {border-style: double;}
+    broder-width: 5px;
+    }
 
 h3{
     font-family: arial;
@@ -29,6 +33,7 @@ h5 {
     color: black;
     text-align: center;
 }
+<<<<<<< HEAD
 p{
     font-family: arial;
     margin-left: 2em;
@@ -39,3 +44,5 @@ instructions {
     font-family: arial;
     text-align: center;
 }
+=======
+>>>>>>> a2ea580e724a3396d418733e43706561369954cf
