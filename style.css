@@ -9,10 +9,8 @@ h1{
     visibility: visible;
     top: 1em;
     left: 250px;
-    }
-h1{
-    p.double  {border-style: double;}
-    broder-width: 5px;
+    border-style: double;
+    border-width: thick;
     }
 
 h3{
