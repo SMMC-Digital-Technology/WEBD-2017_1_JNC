@@ -9,10 +9,15 @@ h1{
     visibility: visible;
     top: 1em;
     left: 250px;
+<<<<<<< HEAD
     }
 h1{
     p.double: {border-style: double;}
     broder-width: 5px;
+=======
+    border-style: double;
+    border-width: thick;
+>>>>>>> 546d632ff1e21d22de8c41069805b484d0a06a66
     }
 
 h3{
