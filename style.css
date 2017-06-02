@@ -34,16 +34,23 @@ h6{
     font-size: 1em;
     text-align: center;
 }
+/*Border around header and footer*/
 header {
     border-style: solid;
     border-width: .5em;
     border-color: #5d8aa8;
 }
+footer {
+      border-style: solid;
+    border-width: .5em;
+    border-color: #5d8aa8;
+}
+/*Image positioning*/
 img.slogan{
     position: absolute;
     visibility: visible;
     top: 5em;
-    right: 60px;
+    right: 2em;
 }
 /*center the body slightly, a featre of many other government websites*/ 
 body {
