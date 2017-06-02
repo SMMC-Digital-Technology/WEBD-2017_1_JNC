@@ -11,7 +11,7 @@ h1{
     left: 250px;
     }
 h1{
-    p.double  {border-style: double;}
+    p.double: {border-style: double;}
     broder-width: 5px;
     }
 
@@ -44,5 +44,6 @@ instructions {
     font-family: arial;
     text-align: center;
 }
+
 =======
 >>>>>>> a2ea580e724a3396d418733e43706561369954cf
