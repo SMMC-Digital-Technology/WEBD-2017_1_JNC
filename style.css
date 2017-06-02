@@ -33,7 +33,18 @@ h5 {
     color: black;
     text-align: center;
 }
-<<<<<<< HEAD
+h6{
+    font-family: arial;
+    font-size: 1em;
+    text-align: center;
+}
+/*center the body slightly, a featre of many other government websites*/ 
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/*Style of paragraph text, and instructions text- used two different id's because the instructions text needs to be centered and the paraghraph not*/ 
 p{
     font-family: arial;
     margin-left: 2em;
@@ -44,6 +55,3 @@ instructions {
     font-family: arial;
     text-align: center;
 }
-
-=======
->>>>>>> a2ea580e724a3396d418733e43706561369954cf
