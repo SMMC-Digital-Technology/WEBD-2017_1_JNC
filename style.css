@@ -38,6 +38,12 @@ h6{
     font-size: 1em;
     text-align: center;
 }
+img.slogan{
+    position: absolute;
+    visibility: visible;
+    top: 5em;
+    right: 60px;
+}
 /*center the body slightly, a featre of many other government websites*/ 
 body {
     margin-left: 5em;
