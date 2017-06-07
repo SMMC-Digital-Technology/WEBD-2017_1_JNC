@@ -26,7 +26,7 @@ function buttonPress()
             {    
                 var number = (incomeAmount - 16000);
                 var taxAmount = (number*0.1);  
-                outputLine.value = "Your2 tax amount is $" + taxAmount;
+                outputLine.value = "Your tax amount is $" + taxAmount;
             } 
         else if (incomeAmount <113000) 
             {
