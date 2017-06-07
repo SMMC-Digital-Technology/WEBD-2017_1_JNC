@@ -8,19 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <script src="plotly-latest.min.js"></script>
     </head>
-    <body>
-            <div id="tester" style="width:600px;height:250px;"></div>    
-        <!--script-this opens the javascript 'section' of the hmtl file--->
-        <script>
-	       TESTER = document.getElementById('tester');
-	       Plotly.plot( TESTER, [{
-	       x: [1, 2, 3, 4, 5, 4, 3, 2, 1, 0, -1, -2, -3, -2, -1, 0, 1],
-	       y: [0, 10, 0, 10, 0, -10, 0, -10, 0, -10, 0, -10, 0, 10, 0, 10, 0] }], {
-	       margin: { t: 0 } } );
-        </script>
-    </body>
-     </head>
-        <!--This is where the header items go, title and logo for the website--->
+            <!--This is where the header items go, title and logo for the website--->
      <header>
             <img class="logo" src="WEBD-2017_1_JNC/Zabututi%20Government.png" alt="Zabututi Government Logo" height="200em" width="auto">
 
@@ -64,15 +52,14 @@
         <div id="tester" style="width:600px;height:250px;"></div>    
         <!--script-this opens the javascript 'section' of the hmtl file--->
         <script>
-	       TESTER = document.getElementById('tester');
-	       Plotly.plot( TESTER, [{
-	       x: [1, 2, 3, 4, 5, 4, 3, 2, 1, 0, -1, -2, -3, -2, -1, 0, 1],
-	       y: [0, 10, 0, 10, 0, -10, 0, -10, 0, -10, 0, -10, 0, 10, 0, 10, 0] }], {
+	       TAX AMOUNT= document.getElementById('taxAmount');
+	       Plotly.plot( taxGraph, [{
+	       x: [0, 50000, 100000, 150000, 200000, 250000],
+	       y: [0, 3400, 11250, 22210, 36070, 54070}], {
 	       margin: { t: 0 } } );
         </script>
     </body>
-        
-     </body>
+    
         <footer>
             <!--place for people to contact if required-->
 
