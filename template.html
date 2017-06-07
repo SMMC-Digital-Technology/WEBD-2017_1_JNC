@@ -37,27 +37,17 @@
                 <!--Text here will mean that people do not include the dollar sign in the input field, as this will cause the code not to work properly.---> 
                 Yearly income is $:
                 <input type="number" id="incomeAmount">
-                <input type="button" id="button" onclick="buttonPress()">
+                <button type="button" id="button" onclick="buttonPress()"></button>
             </form>
         
          
         <h5>Your tax amount</h5>
             <output id="outputTag" type="box"></output>
             <p id="paragraph"></p>
-            
+         <div id="graph"></div>
+           <script scr="plotly-latest.min.js"></script> 
          <script src="behaviour.js"></script>
-         
-         <!---Plotly Graph code--->
-                
-        <div id="tester" style="width:600px;height:250px;"></div>    
-        <!--script-this opens the javascript 'section' of the hmtl file--->
-        <script>
-	       TAX AMOUNT= document.getElementById('taxAmount');
-	       Plotly.plot( taxGraph, [{
-	       x: [0, 50000, 100000, 150000, 200000, 250000],
-	       y: [0, 3400, 11250, 22210, 36070, 54070}], {
-	       margin: { t: 0 } } );
-        </script>
+        
     </body>
     
         <footer>
