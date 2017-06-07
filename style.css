@@ -34,11 +34,7 @@ h6{
     font-size: 1em;
     text-align: center;
 }
-#text {
-    align-content: left;
-    text-align: left;
- }
-/*div style="float: left; margin-top: 10px; background-color: #ff0000; width: 100px; height: 100px; margin: 10px;*/
+
 /*Border around header and footer*/
 header {
     border-style: solid;
@@ -63,7 +59,7 @@ body {
     margin-right: 5em;
 }
 
-/*Style of paragraph text, and instructions text- used two different id's because the instructions text needs to be centered and the paraghraph not*/ 
+/*Style of paragraph text, and instructions text- used different id's because the instructions text needs to be centered and the paraghraph not*/ 
 p{
     font-family: arial;
     margin-left: 2em;
@@ -75,7 +71,13 @@ instructions {
     font-family: arial;
     text-align: center;
 }
-
+#text {
+    align-content: left;
+    text-align: left;
+ }
+form {
+    font-family: calibri;
+}
 /*Style of button to calculate text*/
 #button {
     width: 7em;

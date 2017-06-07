@@ -9,7 +9,12 @@ function buttonPress()
         var incomeAmount = document.getElementById("incomeAmount").value;
         
          //this is how the button works, the income amount is taken and it is decided which 
-     
+            // tiers of income are;
+                        //0-16000 tax rate of 0,
+                        //16001-52500 tax rate of 10% of every dollar over 16000,
+                        //52501-113000 tax rate of 16% of every dollar over 52500+3650, 
+                        //113001-184500 tax rate of 24% of every dollar over 113000 + 13330
+                        //184501 + tax rate of 36% of every dollar over 184500 + 30490
             var number = 0;      
             if (incomeAmount <16000) 
             {        
@@ -57,11 +62,11 @@ function drawGraph()
         };
     
     data=[taxThresholds];
-    
+//layout of plotly graph, sizing and names of axis
     layout = {
         title: "Income Tax",
         yaxis: {
-            title: "tax",
+            title: "Tax",
             zerolinewidth: 1.5,
         },
         xaxis: {
@@ -72,6 +77,7 @@ function drawGraph()
         height: 500,
        
     };
+//plot graph. 
     
     Plotly.newPlot("graph", data, layout);
 }

@@ -10,47 +10,48 @@
     </head>
             <!--This is where the header items go, title and logo for the website--->
      <header>
+         <!--Logo--->
             <img class="logo" src="WEBD-2017_1_JNC/Zabututi%20Government.png" alt="Zabututi Government Logo" height="200em" width="auto">
-
+         <!--slogan--->
             <img class="slogan" src="WEBD-2017_1_JNC/slogan.png" alt="Zabutui, a country for the future" height="90em" width="auto">
             <h1>Online Tax Calculator</h1> 
-
+        <!--website heading--->
             <h1 class="ridge">Online Tax Calculator</h1>
 
      </header>
     
      <body>
-        
+            <!--webpage heading-->
          <h3>Income Tax Calculator</h3>
-        <p>As of the  31st of June 2017 the Zabututi Government has introducted a new tax scheme. This will slightly increase the amount that each citizen pays anually through income tax and in Goods and Services tax (GST). For information on the GST changes please visit that section of this website. 
-         </p>
+            <!--background information to provide context and tell the user what they are getting out of the site---> 
+            <p>As of the  31st of June 2017 the Zabututi Government has introducted a new tax scheme. This will slightly increase the amount that each citizen pays anually through income tax and in Goods and Services tax (GST). For information on the GST changes please visit that section of this website. 
+            </p>
             
-        <p id="text">These changes will allow the Government to devote more funds to  schools, hospitals and roads, enabling them to keep up to date with modern          technology and the depands of our growing population. Ensuring Zabututi is a wonderful place to live for many years to come.</p>
+            <p id="text">These changes will allow the Government to devote more funds to  schools, hospitals and roads, enabling them to keep up to date with modern technology and the depands of our growing population. Ensuring Zabututi is a wonderful place to live for many years to come.</p>
       
-       <p id="text">This website features an income tax calculator to calulate your anual income tax at the new rates. </p>
-       <h4>Caculate your tax now</h4>
-        
-          
-
-         <p id="instructions">To calculate your income tax, simply type the amount you earn anually (to the nearest dollar) into the box below and press calculate. </p>
+            <p id="text">This website features an income tax calculator to calulate your anual income tax at the new rates. </p>
+       
+         <!--tax calculator--->
+        <h4>Caculate your tax now</h4>    
+            <p id="instructions">To calculate your income tax, simply type the amount you earn anually (to the nearest dollar) into the box below and press calculate. </p>
         
             <!--input and output functions to display the income and tax amount--> 
         <h5>Your income amount</h5>
             <form>
                 <!--Text here will mean that people do not include the dollar sign in the input field, as this will cause the code not to work properly.---> 
-                Yearly income is $:
+                Anual income is $:
                 <input type="number" id="incomeAmount">
                 <button type="button" id="button" value="Calculate" onclick="buttonPress()"></button>
             </form>
         
-         
+        
         <h5>Your tax amount</h5>
             <output id="outputTag" type="box"></output>
             <p id="result"></p>
-         
+         <!--graph div. the source must be positioned underneath as this is where the js is. The graph is loaded and then drawn using the js---> 
           <div id="graph"></div>
            <script scr="plotly-latest.min.js"></script> 
-        
+        <!--javascript page link--->
          <script src="behaviour.js"></script>
             
     </body>
@@ -68,7 +69,7 @@
 
          
          <!--webpage details--> 
-         <p>Zabututi Government Tax Caclculator, c2017</p>
+         <p>Zabututi Government Tax Caclculator, (copyright 2017)</p>
         </footer>
    
 </html>
