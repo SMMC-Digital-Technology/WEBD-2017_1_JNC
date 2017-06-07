@@ -27,13 +27,18 @@ h5 {
     font-family: arial;
     font-size: 1em;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 h6{
     font-family: arial;
     font-size: 1em;
     text-align: center;
 }
+#text {
+    align-content: left;
+    text-align: left;
+      }
+/*div style="float: left; margin-top: 10px; background-color: #ff0000; width: 100px; height: 100px; margin: 10px;*/
 /*Border around header and footer*/
 header {
     border-style: solid;
@@ -62,7 +67,8 @@ body {
 p{
     font-family: arial;
     margin-left: 2em;
-    margin-right: 2em:
+    margin-right: 2em;
+    
         
 }
 instructions {
@@ -76,4 +82,5 @@ instructions {
     height: 2em;
     position: absolute;
     background-color: #5d8aa8;
+    
 }
