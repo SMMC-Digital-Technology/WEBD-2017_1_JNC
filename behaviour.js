@@ -8,7 +8,7 @@ function buttonPress()
          //positioning this here means that the variable inputAmount is changed each time a new value is typed in
         var incomeAmount = document.getElementById("incomeAmount").value;
         
-         //this is how the button works
+         //this is how the button works, the income amount is taken and it is decided which 
      
             var number = 0;      
             if (incomeAmount <16000) 
