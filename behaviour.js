@@ -68,7 +68,7 @@ function drawGraph()
             title: "income",
             zerolinewidth: 1.5,
         },
-        width: 500,
+        width: 1000,
         height: 500,
        
     };
