@@ -6,6 +6,19 @@
         <meta charset="utf-8">
         <title>Zabututi Government Tax Calculator</title>
     <link href="style.css" rel="stylesheet">
+    <script src="plotly-latest.min.js"></script>
+    </head>
+    <body>
+            <div id="tester" style="width:600px;height:250px;"></div>    
+        <!--script-this opens the javascript 'section' of the hmtl file--->
+        <script>
+	       TESTER = document.getElementById('tester');
+	       Plotly.plot( TESTER, [{
+	       x: [1, 2, 3, 4, 5, 4, 3, 2, 1, 0, -1, -2, -3, -2, -1, 0, 1],
+	       y: [0, 10, 0, 10, 0, -10, 0, -10, 0, -10, 0, -10, 0, 10, 0, 10, 0] }], {
+	       margin: { t: 0 } } );
+        </script>
+    </body>
      </head>
         <!--This is where the header items go, title and logo for the website--->
      <header>
@@ -35,15 +48,29 @@
             <form>
                 <!--Text here will mean that people do not include the dollar sign in the input field, as this will cause the code not to work properly.---> 
                 Yearly income is $:
-                <input type="number" id="inputIncome">
+                <input type="number" id="incomeAmount">
                 <input type="button" id="button" onclick="buttonPress()">
             </form>
         
          
         <h5>Your tax amount</h5>
             <output id="outputTag" type="box"></output>
+            <p id="paragraph"></p>
             
-            
+         <script src="behaviour.js"></script>
+         
+         <!---Plotly Graph code--->
+                
+        <div id="tester" style="width:600px;height:250px;"></div>    
+        <!--script-this opens the javascript 'section' of the hmtl file--->
+        <script>
+	       TESTER = document.getElementById('tester');
+	       Plotly.plot( TESTER, [{
+	       x: [1, 2, 3, 4, 5, 4, 3, 2, 1, 0, -1, -2, -3, -2, -1, 0, 1],
+	       y: [0, 10, 0, 10, 0, -10, 0, -10, 0, -10, 0, -10, 0, 10, 0, 10, 0] }], {
+	       margin: { t: 0 } } );
+        </script>
+    </body>
         
      </body>
         <footer>
