@@ -4,7 +4,7 @@ h1{
     font-size: 4em;
     color: black;
     text-align: right;
-    margin-right: 7em;
+    margin-right: 9em;
     position: absolute;
     visibility: visible;
     top: 1em;
@@ -59,6 +59,7 @@ body {
     margin-right: 5em;
 }
 
+
 /*Style of paragraph text, and instructions text- used different id's because the instructions text needs to be centered and the paraghraph not*/ 
 p{
     font-family: arial;
@@ -77,11 +78,15 @@ instructions {
  }
 form {
     font-family: calibri;
+    
 }
-/*Style of button to calculate text*/
+/*Style of button to calculate tax and the style of the text on the button */
 #button {
     width: 7em;
     height: 2em;
     position: absolute;
     background-color: #5d8aa8;
+    color: white;
+    font-family: calibri;
+    box-shadow: none;
 }
