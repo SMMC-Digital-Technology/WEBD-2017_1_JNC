@@ -16,12 +16,14 @@ function buttonPress()
                         //113001-184500 tax rate of 24% of every dollar over 113000 + 13330
                         //184501 + tax rate of 36% of every dollar over 184500 + 30490
         
+//For the tax bracket $0 - $1600
             var number = 0;      
             if (incomeAmount <16000) 
             {        
                 taxAmount = "Your tax amount is $" + "0";  
                 outputLine.value=taxAmount.toFixed(2);
             } 
+//For tax amount $1600 - $52500
         else if (incomeAmount <52500) 
                 
             {    
@@ -29,6 +31,7 @@ function buttonPress()
                 var taxAmount = (number*0.1);  
                 outputLine.value = "Your tax amount is $" + taxAmount.toFixed(2);
             } 
+//For tax amount $52501 - $113001
         else if (incomeAmount <113000) 
             {
                     var number = (incomeAmount - 52500);
@@ -36,19 +39,22 @@ function buttonPress()
                     outputLine.value = "Your tax amount is $" + taxAmount.toFixed(2);                    
                     
             } 
+//for the tax bracket $113001 - $184501
+	    
        else if (incomeAmount <184500) 
             {                
                  var number = (incomeAmount - 113000);
                  var taxAmount = ((number * 0.24) + 13330);
                 outputLine.value = "Your tax amount is $" + taxAmount.toFixed(2);
             } 
+//For the tax bracket $184501 and over
         else if (incomeAmount >184501)
             {        
                 var number = (incomeAmount - 184500);
                 var taxAmount = (30490 +(number * 0.36));
                 outputLine.value = "Your tax amount is $" + taxAmount.toFixed(2);
             }
-	    
+//Clear imput box
        var form = document.getElementById("myForm");
        form.reset();
     }
