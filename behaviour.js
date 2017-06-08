@@ -48,8 +48,9 @@ function buttonPress()
                 var taxAmount = (30490 +(number * 0.36));
                 outputLine.value = "Your tax amount is $" + taxAmount.toFixed(2);
             }
-        
-       
+	    
+       var form = document.getElementById("myForm");
+       form.reset();
     }
 //plotly graph, ensures that graph appears at the same time as the rest of the content//
 function drawGraph()
