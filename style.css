@@ -62,14 +62,14 @@ body {
 
 /*Style of paragraph text, and instructions text- used different id's because the instructions text needs to be centered and the paraghraph not*/ 
 p{
-    font-family: arial;
+    font-family: calibri;
     margin-left: 2em;
     margin-right: 2em;
     
         
 }
 instructions {
-    font-family: arial;
+    font-family: calibri;
     text-align: center;
 }
 #text {
